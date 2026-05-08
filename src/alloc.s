@@ -1,5 +1,5 @@
 // =================================================== //
-// Description:      Bump allocator + cover helpers   //
+// Description:      Bump allocator + cover helpers    //
 // Architecture:     ARM64       (Apple, Darwin)       //
 // Assembler:        LLVM as                           //
 // Linker:           LD64 ld                           //
@@ -61,7 +61,7 @@ _alloc:
     RET
 
 
-// _cover_new() → cover ptr in x0  (0 on OOM)
+// _cover_new() -> cover ptr in x0  (0 on OOM)
 // Allocates a cover struct + MAX_TERMS cube slots.
 .global _cover_new
 _cover_new:
