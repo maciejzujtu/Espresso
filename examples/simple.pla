@@ -1,0 +1,9 @@
+# 2-input NAND: ON-set = {00, 01, 10}
+# Irredundant should reduce 3 terms to 2: "0-" and "-0"
+.i 2
+.o 1
+.p 3
+00 1
+01 1
+10 1
+.e

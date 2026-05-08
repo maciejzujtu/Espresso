@@ -1,0 +1,10 @@
+# 2-input, 2-output: f0 = NOT(A), f1 = NOT(B)
+# f0 ON: when A=0 (00,01); f1 ON: when B=0 (00,10)
+.i 2
+.o 2
+.p 4
+00 11
+01 10
+10 01
+11 00
+.e

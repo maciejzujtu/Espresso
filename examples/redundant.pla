@@ -1,0 +1,14 @@
+# 3-input function with redundant terms
+# ON-set includes: 000, 001, 010, 011 (i.e., input 2 = 0, anything for inputs 0,1)
+# Also includes: 100, 101 (input 2=1, input 1=0)
+# Optimal: "--0" + "0-1" — but at minimum, "00-" is redundant given "--0"
+.i 3
+.o 1
+.p 6
+000 1
+001 1
+010 1
+011 1
+100 1
+101 1
+.e

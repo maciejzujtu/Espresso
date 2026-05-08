@@ -1,0 +1,7 @@
+# 2-bit adder carry: C = A AND B
+# ON-set = {11}; minimal cover is just "11 1" (already prime)
+.i 2
+.o 1
+.p 1
+11 1
+.e
