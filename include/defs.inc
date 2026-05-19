@@ -1,5 +1,5 @@
 // =================================================== //
-// Description:      Variable definitions             //
+// Description:      Variable definitions              //
 // Architecture:     ARM64       (Apple, Darwin)       //
 // Assembler:        LLVM as                           //
 // Linker:           LD64 ld                           //

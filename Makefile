@@ -11,7 +11,7 @@ LDFLAGS_MAIN = -lSystem -syslibroot $(SDK_PATH) -e _main -arch arm64
 
 BUILD = build
 
-MAIN_OBJS = build/main.o build/alloc.o build/parser.o build/minimize.o
+MAIN_OBJS = build/main.o build/alloc.o build/parser.o build/build.o build/minimize.o
 
 all: main
 
